@@ -1,0 +1,129 @@
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+<!-- Table borders -->
+table, th, td {
+  border: 1px solid black;
+}
+<!-- Style table borders -->
+th, td {
+  background-color: #96D4D4;
+  border-color: #96D4D4;
+}
+
+<!-- dotted     
+dashed     
+solid     
+double     
+groove     
+ridge     
+inset     
+outset     
+none     
+hidden      -->
+<!-- Using a percentage as the size unit for a width means how wide will this element be compared to its parent element, which in this case is the <body> element. -->
+
+
+<!-- To set the size of a specific column, add the style attribute on a <th> or <td> element: -->
+<table style="width:100%">
+  <tr>
+    <th style="width:70%">Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<!-- To set the height of a specific row, add the style attribute on a table row element: -->
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr style="height:200px">
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<!-- Table Caption -->
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+
+<!-- Cell padding is the space between the cell edges and the cell content. -->
+<!-- Cell spacing is the space between each cell. -->
+th, td {
+  padding: 15px;
+}
+table {
+  border-spacing: 30px;
+}
+
+<!-- Zebra Stripes -->
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+<!-- Vertical Zebra Stripes -->
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+<!-- Hoverable Table -->
+tr:hover {background-color: #D6EEEE;}
+
+<!-- style the first two columns of a table -->
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+...
