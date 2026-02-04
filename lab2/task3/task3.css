@@ -1,0 +1,171 @@
+body{
+    font-family: sans-serif;
+}
+#above{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid red; */
+}
+
+#above_left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 15px;
+    /* border: 1px solid red; */
+}
+
+#test{
+    margin-left: 30px;
+    word-spacing: 20px;
+}
+
+#above_right{
+    width: 35%;
+    height: 100%;
+    float: right;
+    margin: 15px;
+    /* border: 1px solid red; */
+}
+
+#above_right_input{
+    width: 300px;
+    height: 45%;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+#above_right_button{
+    width: 100px;
+    margin-left: 25px;
+    height: 45%;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 5px;
+}
+
+#center{
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+
+h1{
+    font-size: 60px;
+}
+
+#center_p{
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
+}
+
+#center_button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+#under{
+    float: left;
+    margin-top: 25px;
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid red; */
+}
+
+.under_cards{
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 30%;
+    height: 930px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    /* border: 1px solid red; */
+}
+
+.card_part1{
+    height: 200px;
+    /* border: 1px solid red; */
+}
+
+p{
+    color: rgba(0,0,0,0.6);
+    font-size: 15px;
+    /* border: 1px solid red; */
+}
+
+p.price{
+    font-size: 35px;
+    color: black;
+}
+
+sup{
+    color: rgba(0,0,0,0.6);
+    font-size: 20px;
+}
+
+#card_part2_button1{
+    width: 90%;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#card_part2_button2{
+    width: 90%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.card_part2_button3{
+    width: 45%;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.add1{
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+}
+
+.card_part2{
+    margin-top: 15px;
+    background-color: rgb(250, 250, 255);
+    height: 68%;
+    /* border: 1px solid red; */
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.card_part2_blue{
+    color: rgb(24, 119, 242);
+    margin-left: -15px;
+    margin-top: 30px;
+
+}

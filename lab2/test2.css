@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 60px;
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa;
+}
+
+/* Контейнер с карточками */
+.pricing {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+/* Общий стиль карточек */
+.card {
+    width: 320px;
+    position: relative;
+}
+
+/* Внутренняя часть карточки */
+.card-inner {
+    height: 520px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid #d0d7de;
+
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* Recommended карточка */
+.card.recommended .card-inner {
+    border: 2px solid #1673ff;
+}
+
+/* Синяя плашка сверху */
+.badge {
+    height: 48px;
+    background-color: #1673ff;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    border-radius: 16px 16px 0 0;
+}
+
+/* Поднимаем белую карточку на синюю */
+.card.recommended .card-inner {
+    margin-top: -16px;
+}

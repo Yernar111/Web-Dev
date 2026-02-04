@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+#first_div{
+    float: left;
+    margin-left: 180px;
+    margin-top: 150px;
+}
+#first{
+    color: rgb(24, 119, 242);
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    
+}
+#second{
+    font-size: 28px;
+    font-weight: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+
+}
+#second_div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    float: right;
+    width: 400px;
+    height: 370px;
+    background-color: white;
+    margin-right: 200px;
+    margin-top: 120px;
+    border-radius: 15px;
+}
+
+#input1{
+    margin: 10px;
+    width: 360px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+#input1::placeholder{
+    font-size: 16px;
+    text-align: center;
+}
+
+#input2{
+    margin: 10px;
+    margin-top: 0px;
+    width: 360px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+#input2::placeholder{
+    font-size: 16px;
+    text-align: center;
+}
+#input3{
+    margin: 10px;
+    margin-top: 0px;
+    width: 360px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(24, 119, 242);
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+/* #input4{
+    margin: 10px;
+    margin-top: 0px;
+    width: 360px;
+    height: 40px;
+} */
+a{
+    text-decoration: none;
+    margin-left: 140px;
+}
+#input5{
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(8, 163, 93);
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}

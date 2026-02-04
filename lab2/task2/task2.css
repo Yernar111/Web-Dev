@@ -1,0 +1,106 @@
+#left_part{
+    float: left;
+    width: 49%;
+    height: 100%;
+}
+#div_icon{
+    margin-top: 40px;
+    margin-left: 50px;
+    float: left;
+    width: 50px;
+}
+#div_text{
+    font-size: 38px;
+    margin-top: 95px;
+    margin-left: 100px;
+    line-height: 0.7;
+}
+
+#span{
+    text-align: center;
+}
+
+.span_first{
+    background-image: url("https://img.freepik.com/free-vector/instagram-background-gradient-colors_23-2147819864.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: 50px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+}
+
+#img{
+    margin-left: 110px;
+}
+
+
+#right_part{
+    float: right;
+    width: 49%;
+    height: 100%;
+}
+
+#p_right{
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.input1{
+    margin-left: 50px;
+    width: 85%;
+    height: 55px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.input1::placeholder{
+    font-size: 16px;
+    text-align: center;
+}
+
+.input2{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 85%;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(24, 119, 242, 0.5);
+    font-weight: bold;
+    border: 0px;
+    border-radius: 25px;
+}
+
+#input3{
+    /* margin-left: 50px; */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.input4{
+    margin-left: 50px;
+    margin-top: 45px;
+    width: 85%;
+    height: 45px;
+    font-size: 15px;
+    background-color: white;
+    /* font-weight: bold; */
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 25px;
+}
+
+.input5{
+    margin-left: 50px;
+    width: 85%;
+    height: 45px;
+    font-size: 15px;
+    color:  rgb(24, 119, 242);
+    background-color: white;
+    border: 1px solid rgb(24, 119, 242);
+    border-radius: 25px;
+}
