@@ -1,0 +1,7 @@
+<!-- <p *ngIf="filteredProducts.length === 0" class="empty">
+  No products found.
+</p> -->
+
+<div class="grid">
+  <app-product-item *ngFor="let p of filteredProducts" [product]="p" (del)="deleteProduct1($event)"></app-product-item>
+</div>

@@ -1,0 +1,48 @@
+<div class="card">
+  <div class="imageBox">
+    <button class="nav left" (click)="prevImage()">‹</button>
+
+    <img
+      [src]="product.images?.length ? product.images[currentImageIndex] : product.image"
+      [alt]="product.name"
+      class="img"
+    />
+
+    <button class="nav right" (click)="nextImage()">›</button>
+  </div>
+
+  <div class="content">
+    <h3 class="title">{{ product.name }}</h3>
+    <p class="desc">{{ product.description }}</p>
+
+    <p class="price">{{ product.price | number }} ₸</p>
+
+    <div class="meta">
+      <span class="rating">⭐ {{ product.rating }}/5</span>
+
+      <button class="add_like" (click)="addLike()">♥</button>
+      <span class="add_like1">Likes ♥: {{product.likes}}</span>
+
+      @if (product.available){
+        <span class="avai1">Available</span>
+      } @else{
+        <span class="avai2">Not Available</span>
+      }
+      <button class="del" (click)="deleteProduct()">🗑</button>
+    </div>
+
+    <a class="btn" [href]="product.link" target="_blank" rel="noopener">
+      Open on Kaspi
+    </a>
+
+    <div class="share">
+      <a class="shareBtn ws" [href]="whatsappShareUrl" target="_blank" rel="noopener">
+        Share WhatsApp
+      </a>
+
+      <a class="shareBtn tg" [href]="telegramShareUrl" target="_blank" rel="noopener">
+        Share Telegram
+      </a>
+    </div>
+  </div>
+</div> <!----->

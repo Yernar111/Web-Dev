@@ -1,0 +1,17 @@
+<div class="main">
+  <div class="categories">
+  <button class="category" [class.active]="activeCategory === 'All'" (click)="onCategoryChange('All')">
+    All
+  </button>
+
+  <button
+    class="category"
+    *ngFor="let c of categories"
+    [class.active]="activeCategory === c.name"
+    (click)="onCategoryChange(c.name)">
+    {{ c.name }}
+  </button>
+</div>
+<div>
+  <app-product-list [activeCategory]="activeCategory"></app-product-list>
+</div>
