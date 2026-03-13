@@ -1,0 +1,29 @@
+<!-- <p>component-album-detail works!</p> -->
+
+<h2>Album Details</h2>
+
+<!-- <div *ngIf="album1_1">
+  <p>Album ID: {{ album1_1.id }} <br> Album title: {{ album1_1.title }} <br> User ID: {{ album1_1.userId }} </p>
+</div> -->
+
+<div *ngIf="album1$ | async as album">
+    <p>
+      <strong>Album ID:</strong> {{ album.id }} <br>
+      <strong>Album title:</strong> {{ album.title }} <br>
+      <strong>User ID:</strong> {{ album.userId }}
+    </p>
+</div>
+
+<!-- <input type="text" [(ngModel)]="input1" placeholder="Enter new album title"> -->
+<input type="text" [(ngModel)]="input1" [placeholder]="input1">
+<button (click)="updateAlbumTitle()">Save</button>
+
+<br>
+<div *ngIf="album1$ | async as album">
+  <a [routerLink]="['/albums', album.id, 'photos']">View Photos</a>
+</div>
+<!-- <a [routerLink]="['/albums', album1_1.id, 'photos']">View Photos</a> -->
+
+<br>
+<a [routerLink]="['/albums']">Back</a> 
+

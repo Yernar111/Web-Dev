@@ -1,0 +1,10 @@
+<!-- <p>component-album-photos works!</p> -->
+
+<h2>Photos</h2>
+
+<!-- <img *ngFor="let photo of photos" [src]="photo.thumbnailUrl" [alt]="photo.title"> <br> -->
+
+<div *ngFor="let photo of photos1$ | async as photos">
+    <p>{{ photo.title }}</p>
+    <img [src]="photo.thumbnailUrl" [alt]="photo.title"> <br>
+</div>

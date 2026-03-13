@@ -1,0 +1,11 @@
+<!-- <p>component-albums works!</p> -->
+
+<h2>Albums:</h2>
+
+<div *ngFor="let album of albums">
+  <a [routerLink]="['/albums', album.id]">Album ID: {{ album.id }} Album title: {{ album.title }}</a>
+  <button (click)="deleteAlbum(album.id)">Delete</button>
+</div>
+<!-- <div *ngFor="let album of albums$ | async">
+  <a [routerLink]="['/albums', album.id]"><strong>Album ID:</strong> {{ album.id }} <strong>Album title:</strong> {{ album.title }}</a>
+</div> -->
